@@ -1,0 +1,56 @@
+echo ".metadata/" > .gitignore
+echo "bin/" >> .gitignore
+echo "tmp/" >> .gitignore
+echo "*.tmp" >> .gitignore
+echo "*.bak" >> .gitignore
+echo "*.swp" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo ".classpath" >> .gitignore
+echo ".project" >> .gitignore
+echo ".settings/" >> .gitignore
+echo "target/" >> .gitignore
+echo "*.iml" >> .gitignore
+echo ".idea/" >> .gitignore
+echo "out/" >> .gitignore
+echo "logs/" >> .gitignore
+echo "*.log" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "ehthumbs.db" >> .gitignore
+echo "Desktop.ini" >> .gitignore
+echo "$RECYCLE.BIN/" >> .gitignore
+echo ".Trash-*" >> .gitignore
+
+# Ignorer les fichiers et dossiers générés par Eclipse
+.classpath
+.project
+.settings/
+
+# Ignorer les dossiers générés par Maven
+target/
+
+# Ignorer les logs
+logs/
+*.log
+
+# Ignorer les fichiers OS spécifiques
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+*.iml
+.idea/
+out/
+.vscode/
+
+# Ignorer les fichiers temporaires
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Ignorer les fichiers binaires
+*.class
